@@ -105,6 +105,22 @@ namespace Valve.VR
             }
         }
         
+        public virtual SteamVR_Action_Vector2 touchpadInput2
+        {
+            get
+            {
+                return SteamVR_Actions.default_touchpadInput2;
+            }
+        }
+        
+        public virtual SteamVR_Action_Vector2 joyconController
+        {
+            get
+            {
+                return SteamVR_Actions.default_joyconController;
+            }
+        }
+        
         public virtual SteamVR_Action_Vibration Haptic
         {
             get
